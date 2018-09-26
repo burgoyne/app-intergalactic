@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		8B826330215C16770006042A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82632F215C16770006042A /* AppDelegate.swift */; };
 		8B826332215C16770006042A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B826331215C16770006042A /* art.scnassets */; };
-		8B826334215C16770006042A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B826333215C16770006042A /* ViewController.swift */; };
+		8B826334215C16770006042A /* PlanetViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B826333215C16770006042A /* PlanetViewerVC.swift */; };
 		8B826337215C16770006042A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B826335215C16770006042A /* Main.storyboard */; };
 		8B826339215C16770006042A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B826338215C16770006042A /* Assets.xcassets */; };
 		8B82633C215C16770006042A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B82633A215C16770006042A /* LaunchScreen.storyboard */; };
+		8B826345215C17020006042A /* PlanetSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B826344215C17020006042A /* PlanetSelectorVC.swift */; };
+		8B826347215C19A20006042A /* PlanetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B826346215C19A20006042A /* PlanetCell.swift */; };
+		8B82634B215C32E50006042A /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B826348215C32E50006042A /* Starjout.ttf */; };
+		8B82634C215C32E50006042A /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B826349215C32E50006042A /* Starjhol.ttf */; };
+		8B82634D215C32E50006042A /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B82634A215C32E50006042A /* Starjedi.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B82632C215C16770006042A /* Intergalactic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intergalactic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B82632F215C16770006042A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B826331215C16770006042A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		8B826333215C16770006042A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B826333215C16770006042A /* PlanetViewerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewerVC.swift; sourceTree = "<group>"; };
 		8B826336215C16770006042A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B826338215C16770006042A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B82633B215C16770006042A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B82633D215C16770006042A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B826344215C17020006042A /* PlanetSelectorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetSelectorVC.swift; sourceTree = "<group>"; };
+		8B826346215C19A20006042A /* PlanetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCell.swift; sourceTree = "<group>"; };
+		8B826348215C32E50006042A /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		8B826349215C32E50006042A /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
+		8B82634A215C32E50006042A /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,52 @@
 		8B82632E215C16770006042A /* Intergalactic */ = {
 			isa = PBXGroup;
 			children = (
+				8B826350215C330E0006042A /* Models */,
+				8B826343215C16E00006042A /* Controllers */,
+				8B82634F215C32FC0006042A /* resources */,
 				8B82632F215C16770006042A /* AppDelegate.swift */,
-				8B826331215C16770006042A /* art.scnassets */,
-				8B826333215C16770006042A /* ViewController.swift */,
 				8B826335215C16770006042A /* Main.storyboard */,
 				8B826338215C16770006042A /* Assets.xcassets */,
+				8B826331215C16770006042A /* art.scnassets */,
 				8B82633A215C16770006042A /* LaunchScreen.storyboard */,
 				8B82633D215C16770006042A /* Info.plist */,
 			);
 			path = Intergalactic;
+			sourceTree = "<group>";
+		};
+		8B826343215C16E00006042A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B826333215C16770006042A /* PlanetViewerVC.swift */,
+				8B826344215C17020006042A /* PlanetSelectorVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B82634E215C32F20006042A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B82634A215C32E50006042A /* Starjedi.ttf */,
+				8B826349215C32E50006042A /* Starjhol.ttf */,
+				8B826348215C32E50006042A /* Starjout.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		8B82634F215C32FC0006042A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B82634E215C32F20006042A /* fonts */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		8B826350215C330E0006042A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B826346215C19A20006042A /* PlanetCell.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B826332215C16770006042A /* art.scnassets in Resources */,
+				8B82634C215C32E50006042A /* Starjhol.ttf in Resources */,
 				8B82633C215C16770006042A /* LaunchScreen.storyboard in Resources */,
 				8B826339215C16770006042A /* Assets.xcassets in Resources */,
+				8B82634B215C32E50006042A /* Starjout.ttf in Resources */,
+				8B82634D215C32E50006042A /* Starjedi.ttf in Resources */,
 				8B826337215C16770006042A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B826334215C16770006042A /* ViewController.swift in Sources */,
+				8B826345215C17020006042A /* PlanetSelectorVC.swift in Sources */,
+				8B826334215C16770006042A /* PlanetViewerVC.swift in Sources */,
 				8B826330215C16770006042A /* AppDelegate.swift in Sources */,
+				8B826347215C19A20006042A /* PlanetCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
